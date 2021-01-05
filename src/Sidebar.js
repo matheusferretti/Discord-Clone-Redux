@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Sidebar.css";
+import SidebarChannel from "./SidebarChannel";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 
@@ -22,6 +23,10 @@ function Sidebar() {
 
                     <AddIcon className="sidebar__addChannel" />
                 </div>
+            </div>
+
+            <div className="sidebar__channelsList">
+                <SidebarChannel />
             </div>
         </div>
     )
