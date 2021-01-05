@@ -26,6 +26,9 @@ function Sidebar() {
 
                 <div className="sidebar__channelsList">
                     <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
                 </div>
             </div>
         </div>
