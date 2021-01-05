@@ -9,7 +9,10 @@ function Sidebar() {
 
             <div className="sidebar__top">
                 <h3>SYMP-WEB</h3>
+                <ExpandMoreIcon />
             </div>
+
+            
         </div>
     )
 }
