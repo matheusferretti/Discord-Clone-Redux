@@ -14,7 +14,6 @@ import SettingsIcon from '@material-ui/icons/Settings';
 function Sidebar() {
     return (
         <div className="sidebar">
-            <h2>I am the Sidebar</h2>
 
             <div className="sidebar__top">
                 <h3>SYMP-WEB</h3>
@@ -54,7 +53,7 @@ function Sidebar() {
             </div>
 
             <div className="sidebar__profile">
-                <Avatar />
+                <Avatar src="https://avatars1.githubusercontent.com/u/63252585?s=460&u=c652dbe1f17eef0620dfc0dab793cc22ab908265&v=4"/>
                 <div className="sidebar__profileInfo">
                     <h3>@matheusferrettii</h3>
                     <p>#thisIsMyId</p>
