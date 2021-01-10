@@ -10,7 +10,9 @@ function Message() {
                <h4>matheusferrettii
                    <span className="message__timestamp">this is a timestamp
                    </span>
-                </h4> 
+                </h4>
+
+                <p>This is a message</p> 
             </div>
         </div>
     )
